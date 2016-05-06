@@ -9,3 +9,5 @@ ARG user=jenkins
 ARG group=jenkins
 ARG uid=1000
 ARG gid=1000
+
+RUN wget --no-verbose -O /tmp/apache-maven-3.3.9.tar.gz http://www.mirrorservice.org/sites/ftp.apache.org/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
